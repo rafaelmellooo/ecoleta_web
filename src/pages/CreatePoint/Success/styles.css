@@ -1,0 +1,32 @@
+#success {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-color: #0E0A14;
+  opacity: 0.95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#success h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#success svg {
+  height: 53.33px;
+  width: 53.33px;
+  color: #34CB79;
+  margin-bottom: 8px;
+}
+
+#success strong {
+  margin-top: 8px;
+  color: #FFF;
+}
